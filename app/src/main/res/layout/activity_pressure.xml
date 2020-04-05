@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PressureActivity">
+
+    <EditText
+        android:id="@+id/upperEdtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/upperTxt"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lowerEdtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/lowerTxt"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/upperEdtx"
+        app:layout_constraintTop_toBottomOf="@+id/upperEdtx" />
+
+    <EditText
+        android:id="@+id/pulseEdtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/pulseTxt"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/lowerEdtx"
+        app:layout_constraintTop_toBottomOf="@+id/lowerEdtx" />
+
+    <CheckBox
+        android:id="@+id/tahCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tahTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pulseEdtx" />
+
+    <EditText
+        android:id="@+id/dateEdtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahCheckBox" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/saveTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdtx" />
+
+    <EditText
+        android:id="@+id/timeEdtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/dateEdtx"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdtx" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

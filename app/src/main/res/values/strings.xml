@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья</string>
+    <string name="startHeadTxt">КОМПЛЕКСНАЯ СИСТЕМА МОНИТОРИНГА ЗДОРОВЬЯ</string>
+    <string name="author">автор Гаврильчук</string>
+    <string name="name">ФИО</string>
+    <string name="age">Возраст</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="pressure">давление</string>
+    <string name="vitalStats">жизненные показатели</string>
+    <string name="numExcMess">Пожалуйста, введите числовое значение</string>
+    <string name="upperTxt">верхнее давление</string>
+    <string name="lowerTxt">нижнее давление</string>
+    <string name="pulseTxt">пульс</string>
+    <string name="tahTxt">тахикардия</string>
+    <string name="date">дата измерения</string>
+    <string name="time">время измерения</string>
+    <string name="saveTxt">СОХРАНИТЬ</string>
+    <string name="weight">вес</string>
+    <string name="steps">количество шагов</string>
+    <string name="saveMess">СОХРАНЕНО</string>
+</resources>
